@@ -14,3 +14,4 @@ jobs:
           python-version: '3.x'
           architecture: 'x64'
       - run: pip install numpy
+      - run: python3 workflow.py
