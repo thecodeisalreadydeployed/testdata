@@ -5,8 +5,7 @@ import time
 shape, scale = 36, 5/6
 s = list(np.random.gamma(shape, scale, 5))
 
-while True:
-    for i in s:
-        print(datetime.datetime.now())
-        print(i)
-        time.sleep(i)
+for i in s:
+    print(datetime.datetime.now())
+    print(i)
+    time.sleep(i)
