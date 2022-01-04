@@ -3,7 +3,7 @@ import datetime
 import time
 
 shape, scale = 36, 5/6
-s = np.random.gamma(shape, scale, 1000)
+s = list(np.random.gamma(shape, scale, 1000))
 
 while True:
     for i in s:
