@@ -1,1 +1,1 @@
-npx create-nx-workspace@latest nx --preset="nest" --appName="nest-a" --interactive=false --nxCloud=false --packageManager="yarn" --cli="nx" --skip-git
+npm_config_yes=true npx create-nx-workspace@latest nx --preset="nest" --appName="nest-a" --interactive=false --nxCloud=false --packageManager="yarn" --cli="nx" --skip-git
