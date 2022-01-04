@@ -8,5 +8,5 @@ s = list(np.random.gamma(shape, scale, 1000))
 while True:
     for i in s:
         print(datetime.datetime.now())
-        print(s)
-        time.sleep(s)
+        print(i)
+        time.sleep(i)
