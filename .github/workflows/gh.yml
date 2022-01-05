@@ -21,3 +21,4 @@ jobs:
       - run: gh auth setup-git
       - run: pip install numpy
       - run: python3 workflow.py
+        continue-on-error: true
