@@ -5,5 +5,5 @@ cd workspace
 ls
 
 git switch testdata
-sed -i "1s/^// $(date)\n\n" nx/apps/nest-a/src/main.ts
+sed -i "1s;^;// $(date)\n\n" nx/apps/nest-a/src/main.ts
 cat nx/apps/nest-a/src/main.ts
