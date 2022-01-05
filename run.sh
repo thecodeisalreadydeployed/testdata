@@ -11,4 +11,7 @@ cat nx/apps/nest-a/src/main.ts
 
 git add nx/apps/nest-a/src/main.ts
 git commit -m "$(date --iso-8601=seconds)"
-# git push
+git push
+
+cd ../
+rm -rf ./workspace
