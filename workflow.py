@@ -16,4 +16,4 @@ for i in s:
     time.sleep(i/2)
 
     process = subprocess.run(["git", "config", "user.name"], capture_output=True)
-    print(process.communicate()[0])
+    print(process.stdout)
