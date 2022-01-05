@@ -15,4 +15,5 @@ for i in s:
     # TODO(trif0lium): change i/2 to i
     time.sleep(i/2)
 
-    subprocess.run(["git", "config", "user.name"], capture_output=True)
+    process = subprocess.run(["git", "config", "user.name"], capture_output=True)
+    print(process.communicate()[0])
