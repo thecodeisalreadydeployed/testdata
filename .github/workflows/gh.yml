@@ -17,5 +17,6 @@ jobs:
         with:
           python-version: '3.x'
           architecture: 'x64'
+      - run: gh auth setup-git
       - run: pip install numpy
       - run: python3 workflow.py
