@@ -8,4 +8,6 @@ s = list(np.random.gamma(shape, scale, 5))
 for i in s:
     print(datetime.datetime.now())
     print(i)
-    time.sleep(i)
+
+    # TODO(trif0lium): change i/2 to i
+    time.sleep(i/2)
