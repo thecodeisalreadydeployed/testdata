@@ -7,6 +7,10 @@ jobs:
     concurrency:
       group: gh
       cancel-in-progress: false
+    env:
+      GIT_COMMITTER_NAME: GitHub Action
+      GIT_AUTHOR_NAME: GitHub Action
+      EMAIL: action@github.com
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
