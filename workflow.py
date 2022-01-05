@@ -4,7 +4,9 @@ import time
 import subprocess
 
 shape, scale = 36, 5/6
-s = list(np.random.gamma(shape, scale, 5))
+
+# TODO(trif0lium): set size to 5
+s = list(np.random.gamma(shape, scale, 1))
 
 for i in s:
     print(datetime.datetime.now())
